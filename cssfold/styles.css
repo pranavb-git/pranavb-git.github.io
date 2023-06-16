@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(34, 24, 19);
+}
+p{
+    color: rgb(23, 100, 100);
+    text-align: center;
+    font-size: 300%;
+}
+
+h2{
+    text-align: center;
+    margin-left: auto    ;
+    margin-top: 0;
+    color: rgb(100, 48, 9);
+    display: inline-block;
+    font-size: 80px;
+}
+
+.headtext{
+    color: rgb(203, 225, 103);
+    font-size: 500%;
+    margin: 0;
+}
+.subtext{
+    color: rgb(203, 225, 103);
+    font-size: 100%;
+    margin-top: 0;
+}
+
+
+.reg{
+    color: rgb(184, 192, 147);
+    font-size: 200%;
+    text-align: left;
+    margin-left: 50px;
+}
+
+
+img{
+    margin-left: 20px;
+    width: 200px;
+    object-fit: cover;
+    margin-left: 0;
+}
+
+.artistimg
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 110px;
+    opacity: 90%;
+}
+.artistimg:hover{
+    opacity: 100%;
+}
+.coverpic
+{
+    margin-left: 40px;
+    width: 200px;
+    object-fit: cover;
+    margin-top: 0;
+    display: inline-block;
+}
+
+div{
+    height: 270px;
+    background-color: rgb(147, 108, 61);
+    margin-left: 0;
+    border: solid;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: rgb(148, 114, 73);
+}
+div:hover{
+    border-color: rgb(179, 151, 117);
+    background-color: rgb(213, 162, 100);
+    background-image: radial-gradient(rgb(213, 162, 100),rgb(116, 82, 40));
+}
+
+.artist{
+    height: 200px;
+    width: 200px;
+    border-radius: 110px;
+    background-color: rgb(213, 162, 100);
+    content: icon;
+    margin-left: 0;
+    display: inline-block;
+    margin-right: 20px;
+}

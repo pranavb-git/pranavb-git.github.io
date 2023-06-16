@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    background-color: rgb(231, 196, 144);
+}
+
+p{
+    font-size: 40px;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+div{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(32, 17, 46);
+    margin-top: 0;
+    padding: 20px;
+}
+
+.topbox{
+    
+    background-image: radial-gradient(rgb(102, 102, 239),rgb(17, 17, 225));
+    border: solid;
+    border-width: 5px;
+}
+
+.midbox{
+    background-image: radial-gradient(rgb(83, 7, 7),rgb(198, 23, 23));
+    margin-left: 250px;
+    border: solid;
+    border-width: 20px;
+}
+.botbox{
+    background-image: linear-gradient(to top, rgb(89, 94, 38),rgb(200, 207, 24));
+    margin-left: 530px;
+    border: solid;
+    border-width: 10px;
+}
